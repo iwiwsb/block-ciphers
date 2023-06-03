@@ -3,4 +3,5 @@
 mod block_cipher;
 mod core;
 
+pub use crate::core::*;
 pub use block_cipher::*;
